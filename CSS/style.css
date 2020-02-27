@@ -1,0 +1,15 @@
+.logo{
+    display: inline;
+}
+.header{
+    display: inline-block;
+    font-size: 30px;
+    bottom: 10px;
+    position: absolute;
+}
+.headerfooter{
+    position: relative;
+    display: inline-block;
+    bottom: 40px;
+    font-size: 10px;
+}
