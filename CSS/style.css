@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Kalam|Yellowtail&display=swap');
 body{
-    margin: 30px 210px;
+    margin: 30px 310px;
 }
 header{
     margin-bottom: 30px;
@@ -13,11 +13,9 @@ p.header{
     margin: 0;
     font-size: 28px;
     bottom: 23px;
-    position: relative;     
+    position: relative;
     font-family: 'Yellowtail',sans-serif ;
 }
-
-
 .headingfooter{
 display: inline-block;
     font-size: 11px;
@@ -27,17 +25,14 @@ display: inline-block;
     right: 90px;
     bottom: 2px;
 }
-img.headerimages{
+.headerimages{
     float: right;
     margin-top: 0px;
 }
 main{
-    
-    border-color: rgb(167, 162, 158);
-    border-top-style: solid;
-    border-bottom-style: solid;
     border-top-width: 12px;
     border-bottom-width: 12px;
+    padding-bottom: 60px;
 }
 h1{
     font-size: 35px;
@@ -45,15 +40,12 @@ h1{
     margin-bottom: 0px;
     font-family: 'Fjalla One', sans-serif;
 }
-
 .date{
-    
     display: block;
     font-size: 12px;
     margin-top: 0px;
     color: lightgray;
 }
-
 .print{
     font-size: 12px;
     float: right;
@@ -66,48 +58,39 @@ h1{
     margin-top: 25px;
     display: block;
     width: 100%;
-    
 }
-
-
 .para{
     text-indent: 30px;
-    color: rgb(68, 65, 65);
+    font-size: 20px;
+    color: rgb(150, 143, 135);
     font-size: 20px;
 }
 form{
+    padding: 40px;
     background-image: url("/img/list-bg.png");
-    background-position-x: 100%;
-    background-position-y: 100%;
     font-size: 22px;
-    line-height: 50px;
-    margin-bottom: 60px; 
     font-family: 'Kalam', serif;
     color: rgb(63, 63, 63);
 }
 form div{
     float:right;
     position: relative;
-    bottom: 300px;
+    bottom: 213px;
 }
-
 #van{
 display: inline-block;
 margin-top: 25px;
 }
-
 h3{
     display:inline-block;
     margin: 0;
     font-size: 20px;
     bottom: 50px;
     left: 10px;
-    position: relative; 
+    position: relative;
     color: rgb(41, 39, 39);
 }
-
 .footerVan{
-    display: block;
     font-size: 17px;
     color: rgb(112, 109, 109);
     margin: 0px;
@@ -117,28 +100,33 @@ h3{
 }
 .share{
     display: inline-block;
-    font-size: 11px;
     color: white;
-    background-color: rgba(194, 68, 68, 0.979);
-    padding: 1% 2% 1% 2%;
+    background-color: rgb(213, 104, 64);
+    padding: 2% 3% 2% 3%;
     position: relative;
     margin: 0px;
     left: 810px;
-    bottom: 110px;
+    bottom: 75px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 1.3em;
+    cursor: pointer;
 }
-
 footer{
     border-top: solid thin;
-    border-color: gray;
-}
-
-#iconFooter{
-    display: block;
-    margin-left: auto;
-}
-
-footer p{
-    display: inline-block;
+    border-color: lightgray;
     text-align: center;
-    color: gray;
 }
+#iconFooter{
+    position: relative;
+    display: block;
+    margin: auto;
+    bottom: 16px;
+}
+.styledline{
+    margin-top: 25px;
+    width: 100%;
+    height: 14px;
+    background-size: 4px 4px;
+    background-image: linear-gradient(45deg, transparent 46%, rgb(170, 170, 170) 49%, rgb(170, 170, 170) 51%, transparent 55%);
+  }
